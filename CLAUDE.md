@@ -215,6 +215,12 @@ Lavash/
 - **Footer**: deduplicated the three contact rows (address/phone/email) into a single `contactRows.map(...)` instead of three near-identical `<li>` blocks; grid breakpoints changed from "1 col until `lg`" to "1 col → `sm:grid-cols-2` → `lg:grid-cols-2/3`" for a proper tablet layout.
 - Verified no horizontal overflow at 320px/390px/tablet/desktop widths (`document.documentElement.scrollWidth <= clientWidth` checked directly).
 
+### 7. Production build fix, Git init, and Vercel deployment prep
+
+- Real menu content (`src/data/menu.json`) uses allergen labels (`contains-seafood`, `contains-dairy`, `contains-nuts`) that were missing from the `MenuItemLabel` type, causing `npm run build` to crash during static prerendering (`TypeError: Cannot read properties of undefined (reading 'en')` in `MenuCard`'s label lookup). Extended `MenuItemLabel` (`src/types/menu.ts`) and `MenuCard`'s `LABEL_TEXT` map with bilingual entries for all three. Verified with a clean `npm run build` and in-browser.
+- Initialized the local git repository (first commit), added `.idea/` to `.gitignore` (JetBrains IDE config, not tracked), and pushed to `git@github.com:Leonid-A/lavash_bar-b-que.git` via SSH.
+- In progress: deploying to Vercel (import connected, framework auto-detected as Next.js).
+
 ## Explicitly NOT Implemented Yet
 
 - Real images for menu items (all `image: null` currently; `MenuCard` already supports `next/image` when a path is provided, including a broken-image fallback) and a real logo asset at `/logo.png`.

@@ -17,6 +17,9 @@ const LABEL_TEXT: Record<MenuItemLabel, LocalizedText> = {
   spicy: { en: "Spicy", hy: "Կծու" },
   gluten_free: { en: "Gluten Free", hy: "Առանց գլյուտենի" },
   new: { en: "New", hy: "Նոր" },
+  "contains-seafood": { en: "Contains Seafood", hy: "Պարունակում է ծովամթերք" },
+  "contains-dairy": { en: "Contains Dairy", hy: "Պարունակում է կաթնամթերք" },
+  "contains-nuts": { en: "Contains Nuts", hy: "Պարունակում է ընկույզ" },
 };
 
 function MenuCard({ item }: MenuCardProps) {

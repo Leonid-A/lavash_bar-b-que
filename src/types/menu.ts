@@ -3,7 +3,14 @@ import type { SupportedLanguageCode } from "./language";
 export type LocalizedText = Record<SupportedLanguageCode, string>;
 
 export type MenuItemLabel =
-  "vegetarian" | "vegan" | "spicy" | "gluten_free" | "new";
+  | "vegetarian"
+  | "vegan"
+  | "spicy"
+  | "gluten_free"
+  | "new"
+  | "contains-seafood"
+  | "contains-dairy"
+  | "contains-nuts";
 
 export interface MenuItem {
   id: string;

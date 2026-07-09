@@ -58,6 +58,10 @@ All notable changes to this project should be documented in this file.
 - No images existed for any old item, so all new items use `image: null`; no labels were specified in the source, so all new items use `labels: []`.
 - Populated the `hy` field for 90 of the 91 menu item names using the provided Armenian translations, matched by dish identity to each item's `id` (e.g. `hy: ""` on `assorted-fish-plate` → `"Ձկան տեսականի"`). No `en` values, ids, prices, categories, descriptions, images, labels, or ordering were changed. Category-level `hy` names remain empty since no category translations were provided. The `ostri` item has no translation available and keeps `hy: ""`.
 
+## Fixed
+
+- Production build was crashing during static page prerendering (`Cannot read properties of undefined (reading 'en')`) because `src/data/menu.json` uses allergen labels (`contains-seafood`, `contains-dairy`, `contains-nuts`) not present in the `MenuItemLabel` type, and `src/data/menu.ts` casts the JSON with `as Menu` instead of a checked parse, so TypeScript didn't catch the mismatch. Extended `MenuItemLabel` (`src/types/menu.ts`) and `MenuCard`'s `LABEL_TEXT` map (`src/components/MenuCard/MenuCard.tsx`) with bilingual (EN/HY) entries for all three allergen labels. Verified with a clean `npm run build` and in-browser.
+
 ---
 
 # Future Versions
