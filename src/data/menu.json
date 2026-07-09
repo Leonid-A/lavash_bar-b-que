@@ -1,0 +1,1407 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": {
+        "en": "Appetizers",
+        "hy": "Նախուտեստներ"
+      },
+      "items": [
+        {
+          "id": "assorted-fish-plate",
+          "name": {
+            "en": "Assorted Fish Plate",
+            "hy": "Ձկան տեսականի"
+          },
+          "description": {
+            "en": "A selection of assorted fish served as a cold appetizer.",
+            "hy": "Տարբեր տեսակի ձկների տեսականի՝ մատուցված որպես սառը նախուտեստ։"
+          },
+          "price": 27.99,
+          "image": null,
+          "labels": ["contains-seafood"]
+        },
+        {
+          "id": "assorted-cheese-plate",
+          "name": {
+            "en": "Assorted Cheese Plate",
+            "hy": "Պանրի տեսականի"
+          },
+          "description": {
+            "en": "A selection of assorted cheeses served on one platter.",
+            "hy": "Տարբեր տեսակի պանիրների տեսականի՝ մեկ ափսեում։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": ["vegetarian", "contains-dairy"]
+        },
+        {
+          "id": "assorted-meat-platter",
+          "name": {
+            "en": "Assorted Meat Platter",
+            "hy": "Մսի տեսականի"
+          },
+          "description": {
+            "en": "A selection of assorted meats served as a cold platter.",
+            "hy": "Տարբեր տեսակի մսի տեսականի՝ մատուցված որպես սառը նախուտեստ։"
+          },
+          "price": 29.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beef-tongue-plate",
+          "name": {
+            "en": "Beef Tongue Plate",
+            "hy": "Տավարի լեզվի տեսականի"
+          },
+          "description": {
+            "en": "Sliced beef tongue served as a cold appetizer.",
+            "hy": "Կտրատված տավարի լեզու՝ մատուցված որպես սառը նախուտեստ։"
+          },
+          "price": 22.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "fresh-greens",
+          "name": {
+            "en": "Fresh Greens",
+            "hy": "Թարմ կանաչիներ"
+          },
+          "description": {
+            "en": "A selection of fresh seasonal greens.",
+            "hy": "Թարմ սեզոնային կանաչիների տեսականի։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "assorted-pickled-vegetables",
+          "name": {
+            "en": "Assorted Pickled Vegetables",
+            "hy": "Թթուների տեսականի"
+          },
+          "description": {
+            "en": "An assortment of pickled vegetables.",
+            "hy": "Տարբեր տեսակի թթու բանջարեղենի տեսականի։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "jajukh",
+          "name": {
+            "en": "Jajukh (Armenian Yogurt & Cucumber Dip)",
+            "hy": "Ջաջուխ"
+          },
+          "description": {
+            "en": "Traditional Armenian yogurt and cucumber dip.",
+            "hy": "Ավանդական հայկական մածունով և վարունգով սառը խավարտ։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian", "contains-dairy"]
+        },
+        {
+          "id": "spinach-with-yogurt",
+          "name": {
+            "en": "Spinach with Yogurt",
+            "hy": "Սպանախ մածունով"
+          },
+          "description": {
+            "en": "Spinach served with yogurt.",
+            "hy": "Սպանախ՝ մատուցված մածունով։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian", "contains-dairy"]
+        },
+        {
+          "id": "hummus",
+          "name": {
+            "en": "Hummus",
+            "hy": "Հումուս"
+          },
+          "description": {
+            "en": "A traditional chickpea spread served as a cold appetizer.",
+            "hy": "Ավանդական սիսեռի մածուկ՝ մատուցված որպես սառը նախուտեստ։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "marinated-olives-with-lemon",
+          "name": {
+            "en": "Marinated Olives with Lemon",
+            "hy": "Մարինացված ձիթապտուղ կիտրոնով"
+          },
+          "description": {
+            "en": "Marinated olives served with lemon.",
+            "hy": "Մարինացված ձիթապտուղ՝ կիտրոնով։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "ghavurma",
+          "name": {
+            "en": "Ghavurma (Traditional Armenian Preserved Meat)",
+            "hy": "Ղավուրմա"
+          },
+          "description": {
+            "en": "Traditional Armenian preserved meat.",
+            "hy": "Ավանդական հայկական ղավուրմա։"
+          },
+          "price": 27.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "fried-peppers-and-eggplant",
+          "name": {
+            "en": "Fried Peppers & Eggplant",
+            "hy": "Տապակած պղպեղ և սմբուկ"
+          },
+          "description": {
+            "en": "Fried peppers and eggplant served as an appetizer.",
+            "hy": "Տապակած պղպեղ և սմբուկ՝ մատուցված որպես նախուտեստ։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "pickled-cucumber-and-tomatoes",
+          "name": {
+            "en": "Pickled Cucumber & Tomatoes",
+            "hy": "Թթու վարունգ և լոլիկ"
+          },
+          "description": {
+            "en": "Pickled cucumbers and tomatoes.",
+            "hy": "Թթու վարունգ և լոլիկ։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": ["vegetarian"]
+        },
+        {
+          "id": "yogurt-with-olives",
+          "name": {
+            "en": "Yogurt with Olives",
+            "hy": "Մածուն ձիթապտղով"
+          },
+          "description": {
+            "en": "Yogurt served with olives.",
+            "hy": "Մածուն՝ մատուցված ձիթապտղով։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": ["vegetarian", "contains-dairy"]
+        },
+        {
+          "id": "rezhan",
+          "name": {
+            "en": "Rezhan",
+            "hy": "Ռեժան"
+          },
+          "description": {
+            "en": "Traditional Armenian cold appetizer.",
+            "hy": "Ավանդական հայկական սառը նախուտեստ։"
+          },
+          "price": 27.99,
+          "image": null,
+          "labels": []
+        }
+      ]
+    },
+    {
+      "id": "salads",
+      "name": {
+        "en": "Salads",
+        "hy": "Աղցաններ"
+      },
+      "items": [
+        {
+          "id": "beef-tongue-salad",
+          "name": {
+            "en": "Beef Tongue Salad",
+            "hy": "Տավարի լեզվով աղցան"
+          },
+          "description": {
+            "en": "Salad prepared with beef tongue.",
+            "hy": "Աղցան՝ պատրաստված տավարի լեզվով։"
+          },
+          "price": 25.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beef-with-prunes-salad",
+          "name": {
+            "en": "Beef with Prunes Salad",
+            "hy": "Տավարի մսով և սալորաչրով աղցան"
+          },
+          "description": {
+            "en": "Salad with beef and prunes.",
+            "hy": "Աղցան՝ տավարի մսով և սալորաչրով։"
+          },
+          "price": 25.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beet-salad-with-garlic-and-walnuts",
+          "name": {
+            "en": "Beet Salad with Garlic & Walnuts",
+            "hy": "Բազուկի աղցան սխտորով և ընկույզով"
+          },
+          "description": {
+            "en": "Beet salad with garlic and walnuts.",
+            "hy": "Բազուկի աղցան՝ սխտորով և ընկույզով։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": [
+            "vegetarian",
+            "contains-nuts"
+          ]
+        },
+        {
+          "id": "olive-salad",
+          "name": {
+            "en": "Olive Salad",
+            "hy": "Օլիվյե աղցան"
+          },
+          "description": {
+            "en": "Traditional Olivier-style salad.",
+            "hy": "Ավանդական Օլիվյե աղցան։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-salad-with-tarragon",
+          "name": {
+            "en": "Chicken Salad with Tarragon",
+            "hy": "Հավի աղցան թարխունով"
+          },
+          "description": {
+            "en": "Chicken salad with tarragon.",
+            "hy": "Հավի աղցան՝ թարխունով։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "armenian-salad",
+          "name": {
+            "en": "Armenian Salad",
+            "hy": "Հայկական աղցան"
+          },
+          "description": {
+            "en": "Traditional Armenian fresh vegetable salad.",
+            "hy": "Ավանդական հայկական թարմ բանջարեղենային աղցան։"
+          },
+          "price": 14.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "grilled-vegetables-salad",
+          "name": {
+            "en": "Grilled Vegetables Salad",
+            "hy": "Գրիլ բանջարեղենի աղցան"
+          },
+          "description": {
+            "en": "Salad made with grilled vegetables.",
+            "hy": "Աղցան՝ գրիլ բանջարեղենով։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "spicy-beef-salad",
+          "name": {
+            "en": "Spicy Beef Salad",
+            "hy": "Կծու տավարի աղցան"
+          },
+          "description": {
+            "en": "Beef salad with a spicy flavor.",
+            "hy": "Տավարի աղցան՝ կծու համով։"
+          },
+          "price": 23.99,
+          "image": null,
+          "labels": [
+            "spicy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "name": {
+        "en": "Wraps",
+        "hy": "Շաուրմա և խորոված"
+      },
+      "items": [
+        {
+          "id": "pork-shawarma",
+          "name": {
+            "en": "Pork Shawarma (Lavash or Bread)",
+            "hy": "Խոզի շաուրմա (լավաշ կամ հաց)"
+          },
+          "description": {
+            "en": "Pork shawarma served in lavash or bread.",
+            "hy": "Խոզի շաուրմա՝ մատուցված լավաշով կամ հացով։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-shawarma",
+          "name": {
+            "en": "Chicken Shawarma (Lavash or Bread)",
+            "hy": "Հավի շաուրմա (լավաշ կամ հաց)"
+          },
+          "description": {
+            "en": "Chicken shawarma served in lavash or bread.",
+            "hy": "Հավի շաուրմա՝ մատուցված լավաշով կամ հացով։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beef-shawarma",
+          "name": {
+            "en": "Beef Shawarma (Lavash or Bread)",
+            "hy": "Տավարի շաուրմա (լավաշ կամ հաց)"
+          },
+          "description": {
+            "en": "Beef shawarma served in lavash or bread.",
+            "hy": "Տավարի շաուրմա՝ մատուցված լավաշով կամ հացով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lamb-baby-ribs",
+          "name": {
+            "en": "Lamb Baby Ribs",
+            "hy": "Գառան կողիկներ"
+          },
+          "description": {
+            "en": "Grilled lamb baby ribs.",
+            "hy": "Խորոված գառան կողիկներ։"
+          },
+          "price": 24.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-ribs-belly",
+          "name": {
+            "en": "Pork Ribs Belly",
+            "hy": "Խոզի կողիկներ"
+          },
+          "description": {
+            "en": "Grilled pork ribs.",
+            "hy": "Խորոված խոզի կողիկներ։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "black-angus-filet-mignon-bbq",
+          "name": {
+            "en": "Black Angus Filet Mignon Meat BBQ",
+            "hy": "Black Angus ֆիլե մինյոն խորոված"
+          },
+          "description": {
+            "en": "Grilled Black Angus filet mignon.",
+            "hy": "Black Angus ֆիլե մինյոնի խորոված։"
+          },
+          "price": 23.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-bbq",
+          "name": {
+            "en": "Chicken BBQ",
+            "hy": "Հավի խորոված"
+          },
+          "description": {
+            "en": "Grilled chicken.",
+            "hy": "Խորոված հավ։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-butt-neck-bbq",
+          "name": {
+            "en": "Pork Butt Neck BBQ",
+            "hy": "Խոզի վզի խորոված"
+          },
+          "description": {
+            "en": "Grilled pork neck.",
+            "hy": "Խորոված խոզի վիզ։"
+          },
+          "price": 14.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lamb-belly-bbq-ikibir",
+          "name": {
+            "en": "Lamb Belly BBQ (Ikibir)",
+            "hy": "Գառան իկիբիր"
+          },
+          "description": {
+            "en": "Grilled lamb belly.",
+            "hy": "Խորոված գառան փորամիս։"
+          },
+          "price": 16.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-belly-bbq-ikibir",
+          "name": {
+            "en": "Pork Belly BBQ (Ikibir)",
+            "hy": "Խոզի իկիբիր"
+          },
+          "description": {
+            "en": "Grilled pork belly.",
+            "hy": "Խորոված խոզի փորամիս։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-lula",
+          "name": {
+            "en": "Chicken Lula",
+            "hy": "Հավի լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Grilled chicken lula kebab.",
+            "hy": "Հավի լուլա քաբաբ՝ խորոված։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lamb-lula",
+          "name": {
+            "en": "Lamb Lula",
+            "hy": "Գառան լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Grilled lamb lula kebab.",
+            "hy": "Գառան լուլա քաբաբ՝ խորոված։"
+          },
+          "price": 16.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "black-angus-lula",
+          "name": {
+            "en": "Black Angus Lula",
+            "hy": "Black Angus լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Grilled Black Angus lula kebab.",
+            "hy": "Black Angus լուլա քաբաբ՝ խորոված։"
+          },
+          "price": 14.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-butt-neck-plate",
+          "name": {
+            "en": "Pork Butt Neck Plate",
+            "hy": "Խոզի վիզ"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-belly-plate-ikibir",
+          "name": {
+            "en": "Pork Belly Plate (Ikibir)",
+            "hy": "Խոզի իկիբիր"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "pork-ribs-belly-plate",
+          "name": {
+            "en": "Pork Ribs Belly Plate",
+            "hy": "Խոզի կողիկներ"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lamb-baby-ribs-plate",
+          "name": {
+            "en": "Lamb Baby Ribs Plate",
+            "hy": "Գառան կողիկներ"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 29.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "black-angus-filet-mignon-plate",
+          "name": {
+            "en": "Black Angus Filet Mignon Plate",
+            "hy": "Black Angus ֆիլե մինյոն"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 27.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-plate",
+          "name": {
+            "en": "Chicken Plate (Thigh/Breast)",
+            "hy": "Հավ (ազդր կամ կրծքամիս)"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "black-angus-lula-plate",
+          "name": {
+            "en": "Black Angus Lula Plate",
+            "hy": "Black Angus լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 18.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-lula-plate",
+          "name": {
+            "en": "Chicken Lula Plate",
+            "hy": "Հավի լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Served with hummus, cabbage salad, and a choice of rice or fries.",
+            "hy": "Մատուցվում է հումուսով, կաղամբի աղցանով և բրնձով կամ կարտոֆիլ ֆրիով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "en": "Burgers",
+        "hy": "Բուրգերներ"
+      },
+      "items": [
+        {
+          "id": "hamburger",
+          "name": {
+            "en": "Hamburger",
+            "hy": "Համբուրգեր"
+          },
+          "description": {
+            "en": "Classic hamburger served in a bun.",
+            "hy": "Դասական համբուրգեր՝ մատուցված բուլկիով։"
+          },
+          "price": 7.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "cheeseburger",
+          "name": {
+            "en": "Cheeseburger",
+            "hy": "Չիզբուրգեր"
+          },
+          "description": {
+            "en": "Classic cheeseburger served in a bun.",
+            "hy": "Դասական չիզբուրգեր՝ մատուցված բուլկիով։"
+          },
+          "price": 8.49,
+          "image": null,
+          "labels": [
+            "contains-dairy"
+          ]
+        },
+        {
+          "id": "philly-cheesesteak",
+          "name": {
+            "en": "Philly Cheesesteak",
+            "hy": "Ֆիլի Չիզսթեյք"
+          },
+          "description": {
+            "en": "A hot sandwich prepared in the style of a Philly cheesesteak.",
+            "hy": "Տաք սենդվիչ՝ Ֆիլի չիզսթեյքի ոճով։"
+          },
+          "price": 13.99,
+          "image": null,
+          "labels": [
+            "contains-dairy"
+          ]
+        },
+        {
+          "id": "double-double",
+          "name": {
+            "en": "Double-Double",
+            "hy": "Դաբլ Դաբլ"
+          },
+          "description": {
+            "en": "A double-patty burger with cheese.",
+            "hy": "Կրկնակի կոտլետով և պանրով բուրգեր։"
+          },
+          "price": 12.99,
+          "image": null,
+          "labels": [
+            "contains-dairy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hot-dishes",
+      "name": {
+        "en": "Hot Dishes",
+        "hy": "Տաք ուտեստներ"
+      },
+      "items": [
+        {
+          "id": "khinkali-mini-order",
+          "name": {
+            "en": "Khinkali Mini Order (5pc)",
+            "hy": "Մինի խինկալի (5 հատ)"
+          },
+          "description": {
+            "en": "Five mini khinkali dumplings.",
+            "hy": "Հինգ հատ մինի խինկալի։"
+          },
+          "price": 3.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beef-khashlama",
+          "name": {
+            "en": "Beef Khashlama (with Vegetables)",
+            "hy": "Տավարի խաշլամա (բանջարեղենով)"
+          },
+          "description": {
+            "en": "Traditional beef khashlama served with vegetables.",
+            "hy": "Ավանդական տավարի խաշլամա՝ բանջարեղենով։"
+          },
+          "price": 29.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lamb-khashlama",
+          "name": {
+            "en": "Lamb Khashlama (with Vegetables)",
+            "hy": "Գառան խաշլամա (բանջարեղենով)"
+          },
+          "description": {
+            "en": "Traditional lamb khashlama served with vegetables.",
+            "hy": "Ավանդական գառան խաշլամա՝ բանջարեղենով։"
+          },
+          "price": 34.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "beef-stroganoff",
+          "name": {
+            "en": "Beef Stroganoff",
+            "hy": "Բեֆ Ստրոգանով"
+          },
+          "description": {
+            "en": "Classic beef stroganoff.",
+            "hy": "Դասական բեֆ ստրոգանով։"
+          },
+          "price": 26.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chakhokhbili",
+          "name": {
+            "en": "Chakhokhbili",
+            "hy": "Չախոխբիլի"
+          },
+          "description": {
+            "en": "Traditional chakhokhbili.",
+            "hy": "Ավանդական չախոխբիլի։"
+          },
+          "price": 24.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "ker-u-sus",
+          "name": {
+            "en": "Ker u Sus",
+            "hy": "Կեր ու սուս"
+          },
+          "description": {
+            "en": "Traditional Armenian hot dish.",
+            "hy": "Ավանդական հայկական տաք ուտեստ։"
+          },
+          "price": 25.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "cornish",
+          "name": {
+            "en": "Cornish",
+            "hy": "Կոռնիշ"
+          },
+          "description": {
+            "en": "Cornish chicken served as a hot dish.",
+            "hy": "Կոռնիշ հավ՝ մատուցված որպես տաք ուտեստ։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "ostri",
+          "name": {
+            "en": "Ostri",
+            "hy": "Օստրի"
+          },
+          "description": {
+            "en": "Traditional ostri served hot.",
+            "hy": "Ավանդական օստրի՝ մատուցված տաք։"
+          },
+          "price": 25.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "lavash-bokchha",
+          "name": {
+            "en": "Lavash Bokchha",
+            "hy": "Լավաշ Բոխչա"
+          },
+          "description": {
+            "en": "Traditional lavash bokchha.",
+            "hy": "Ավանդական լավաշ բոխչա։"
+          },
+          "price": 29.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "rooster-stew",
+          "name": {
+            "en": "Rooster Stew",
+            "hy": "Աքաղաղի շոգեխաշ"
+          },
+          "description": {
+            "en": "Slow-cooked rooster stew.",
+            "hy": "Շոգեխաշ աքաղաղ։"
+          },
+          "price": 129.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "cutlet-with-mashed-potatoes-or-erishte",
+          "name": {
+            "en": "Cutlet with Mashed Potatoes or Erishte",
+            "hy": "Կոտլետ կարտոֆիլի խյուսով կամ էրիշտայով"
+          },
+          "description": {
+            "en": "Cutlet served with mashed potatoes or erishte.",
+            "hy": "Կոտլետ՝ մատուցված կարտոֆիլի խյուսով կամ էրիշտայով։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "jarko",
+          "name": {
+            "en": "Jarko (Fried Potatoes with Meat)",
+            "hy": "Ժարկո"
+          },
+          "description": {
+            "en": "Fried potatoes served with meat.",
+            "hy": "Տապակած կարտոֆիլ՝ մսով։"
+          },
+          "price": 21.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "egg-scramble-with-fresh-tomatoes",
+          "name": {
+            "en": "Egg Scramble with Fresh Tomatoes",
+            "hy": "Ձվածեղ թարմ լոլիկով"
+          },
+          "description": {
+            "en": "Egg scramble prepared with fresh tomatoes.",
+            "hy": "Ձվածեղ՝ թարմ լոլիկով։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "tzhvzhik",
+          "name": {
+            "en": "Tzhvzhik (Fried Liver with Offal)",
+            "hy": "Տժվժիկ"
+          },
+          "description": {
+            "en": "Traditional fried liver with offal.",
+            "hy": "Ավանդական տժվժիկ՝ լյարդով և ենթամթերքով։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "grilled-sturgeon",
+          "name": {
+            "en": "Grilled Sturgeon (Asetrina)",
+            "hy": "Գրիլ թառափ (Ասետրինա)"
+          },
+          "description": {
+            "en": "Grilled sturgeon.",
+            "hy": "Գրիլ թառափ։"
+          },
+          "price": 25.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        },
+        {
+          "id": "grilled-trout",
+          "name": {
+            "en": "Grilled Trout (Ishkhan)",
+            "hy": "Գրիլ իշխան"
+          },
+          "description": {
+            "en": "Grilled trout.",
+            "hy": "Գրիլ իշխան։"
+          },
+          "price": 24.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        },
+        {
+          "id": "grilled-salmon",
+          "name": {
+            "en": "Grilled Salmon",
+            "hy": "Գրիլ սաղմոն"
+          },
+          "description": {
+            "en": "Grilled salmon.",
+            "hy": "Գրիլ սաղմոն։"
+          },
+          "price": 24.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        },
+        {
+          "id": "grilled-shrimp",
+          "name": {
+            "en": "Grilled Shrimp",
+            "hy": "Գրիլ ծովախեցգետին"
+          },
+          "description": {
+            "en": "Grilled shrimp.",
+            "hy": "Գրիլ ծովախեցգետին։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        },
+        {
+          "id": "shrimp-lula-kebab",
+          "name": {
+            "en": "Shrimp Lula Kebab",
+            "hy": "Ծովախեցգետնի լուլա քաբաբ"
+          },
+          "description": {
+            "en": "Grilled shrimp lula kebab.",
+            "hy": "Ծովախեցգետնի լուլա քաբաբ՝ խորոված։"
+          },
+          "price": 19.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        },
+        {
+          "id": "bbq-lobster",
+          "name": {
+            "en": "BBQ Lobster (2pcs)",
+            "hy": "Խորոված լոբստեր (2 հատ)"
+          },
+          "description": {
+            "en": "Two grilled lobsters.",
+            "hy": "Երկու հատ խորոված լոբստեր։"
+          },
+          "price": 34.99,
+          "image": null,
+          "labels": [
+            "contains-seafood"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "name": {
+        "en": "Sides",
+        "hy": "Խավարտներ"
+      },
+      "items": [
+        {
+          "id": "tava-jarit-potato",
+          "name": {
+            "en": "Tava Jarit Potato",
+            "hy": "Տապակած կարտոֆիլ թավայում"
+          },
+          "description": {
+            "en": "Pan-fried potatoes served hot.",
+            "hy": "Թավայում տապակած կարտոֆիլ՝ մատուցված տաք։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "plech",
+          "name": {
+            "en": "Plech",
+            "hy": "Պլեճ"
+          },
+          "description": {
+            "en": "Traditional Armenian side dish.",
+            "hy": "Ավանդական հայկական խավարտ։"
+          },
+          "price": 9.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "french-fries",
+          "name": {
+            "en": "French Fries",
+            "hy": "Կարտոֆիլ ֆրի"
+          },
+          "description": {
+            "en": "Crispy fried potatoes.",
+            "hy": "Խրթխրթան կարտոֆիլ ֆրի։"
+          },
+          "price": 4.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "rice",
+          "name": {
+            "en": "Rice",
+            "hy": "Բրինձ"
+          },
+          "description": {
+            "en": "Steamed rice served as a side.",
+            "hy": "Շոգեխաշած բրինձ՝ որպես խավարտ։"
+          },
+          "price": 7.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "grilled-vegetables",
+          "name": {
+            "en": "Grilled Vegetables",
+            "hy": "Գրիլ բանջարեղեն"
+          },
+          "description": {
+            "en": "Seasonal vegetables prepared on the grill.",
+            "hy": "Գրիլ եղանակով պատրաստված սեզոնային բանջարեղեն։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "lavash-bread",
+          "name": {
+            "en": "Lavash/Bread",
+            "hy": "Լավաշ / Հաց"
+          },
+          "description": {
+            "en": "Fresh lavash or bread.",
+            "hy": "Թարմ լավաշ կամ հաց։"
+          },
+          "price": 4.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": {
+        "en": "Soups",
+        "hy": "Ապուրներ"
+      },
+      "items": [
+        {
+          "id": "lentil-soup",
+          "name": {
+            "en": "Lentil Soup",
+            "hy": "Ոսպով ապուր"
+          },
+          "description": {
+            "en": "Traditional lentil soup.",
+            "hy": "Ավանդական ոսպով ապուր։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        },
+        {
+          "id": "solyanka-soup",
+          "name": {
+            "en": "Solyanka Soup",
+            "hy": "Սոլյանկա"
+          },
+          "description": {
+            "en": "Traditional Solyanka soup.",
+            "hy": "Ավանդական սոլյանկա ապուր։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "borsh",
+          "name": {
+            "en": "Borsh (Borschet)",
+            "hy": "Բորշչ"
+          },
+          "description": {
+            "en": "Traditional borscht soup.",
+            "hy": "Ավանդական բորշչ։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "chicken-soup",
+          "name": {
+            "en": "Chicken Soup",
+            "hy": "Հավի ապուր"
+          },
+          "description": {
+            "en": "Traditional chicken soup.",
+            "hy": "Ավանդական հավի ապուր։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "armenian-yogurt-soup",
+          "name": {
+            "en": "Armenian Yogurt Soup (Spas)",
+            "hy": "Սպաս"
+          },
+          "description": {
+            "en": "Traditional Armenian yogurt soup.",
+            "hy": "Ավանդական հայկական մածնապուր։"
+          },
+          "price": 15.99,
+          "image": null,
+          "labels": [
+            "vegetarian",
+            "contains-dairy"
+          ]
+        },
+        {
+          "id": "piti",
+          "name": {
+            "en": "Piti",
+            "hy": "Փիթի"
+          },
+          "description": {
+            "en": "Traditional piti soup.",
+            "hy": "Ավանդական փիթի ապուր։"
+          },
+          "price": 17.99,
+          "image": null,
+          "labels": []
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "en": "Drinks",
+        "hy": "Ըմպելիքներ"
+      },
+      "items": [
+        {
+          "id": "still-water",
+          "name": {
+            "en": "Still Water (28oz)",
+            "hy": "Առանց գազի ջուր (28 ունցիա)"
+          },
+          "description": {
+            "en": "Still drinking water.",
+            "hy": "Առանց գազի խմելու ջուր։"
+          },
+          "price": 7.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "mineral-water",
+          "name": {
+            "en": "Mineral Water",
+            "hy": "Հանքային ջուր"
+          },
+          "description": {
+            "en": "Sparkling mineral water.",
+            "hy": "Գազավորված հանքային ջուր։"
+          },
+          "price": 3.5,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "mineral-water-28oz",
+          "name": {
+            "en": "Mineral Water (28oz)",
+            "hy": "Հանքային ջուր (28 ունցիա)"
+          },
+          "description": {
+            "en": "Sparkling mineral water.",
+            "hy": "Գազավորված հանքային ջուր։"
+          },
+          "price": 7.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "can-soda",
+          "name": {
+            "en": "Can Soda",
+            "hy": "Գազավորված ըմպելիք (բանկա)"
+          },
+          "description": {
+            "en": "Chilled canned soft drink.",
+            "hy": "Սառեցված գազավորված ըմպելիք բանկայով։"
+          },
+          "price": 3.5,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "mexican-coke",
+          "name": {
+            "en": "Mexican Coke",
+            "hy": "Մեքսիկական Կոկա-Կոլա"
+          },
+          "description": {
+            "en": "Classic Mexican Coca-Cola.",
+            "hy": "Դասական մեքսիկական Կոկա-Կոլա։"
+          },
+          "price": 3.99,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "tan",
+          "name": {
+            "en": "Tan (Yogurt Drink)",
+            "hy": "Թան"
+          },
+          "description": {
+            "en": "Traditional Armenian yogurt drink.",
+            "hy": "Ավանդական հայկական մածնային ըմպելիք։"
+          },
+          "price": 3.99,
+          "image": null,
+          "labels": [
+            "contains-dairy"
+          ]
+        },
+        {
+          "id": "tarragon-lemonade",
+          "name": {
+            "en": "Tarragon Lemonade",
+            "hy": "Թարխունի լիմոնադ"
+          },
+          "description": {
+            "en": "Refreshing tarragon-flavored lemonade.",
+            "hy": "Զովացնող թարխունի համով լիմոնադ։"
+          },
+          "price": 3.5,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "armenian-coffee",
+          "name": {
+            "en": "Armenian Coffee",
+            "hy": "Հայկական սուրճ"
+          },
+          "description": {
+            "en": "Traditional Armenian coffee.",
+            "hy": "Ավանդական հայկական սուրճ։"
+          },
+          "price": 3.5,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "tea",
+          "name": {
+            "en": "Tea",
+            "hy": "Թեյ"
+          },
+          "description": {
+            "en": "Freshly brewed tea.",
+            "hy": "Թարմ եփված թեյ։"
+          },
+          "price": 3.5,
+          "image": null,
+          "labels": []
+        },
+        {
+          "id": "kompot",
+          "name": {
+            "en": "Kompot (1L)",
+            "hy": "Կոմպոտ (1 լ)"
+          },
+          "description": {
+            "en": "Traditional fruit compote.",
+            "hy": "Ավանդական մրգային կոմպոտ։"
+          },
+          "price": 8.99,
+          "image": null,
+          "labels": []
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "name": {
+        "en": "Dessert",
+        "hy": "Աղանդեր"
+      },
+      "items": [
+        {
+          "id": "fruit-plate",
+          "name": {
+            "en": "Fruit Plate",
+            "hy": "Մրգային տեսականի"
+          },
+          "description": {
+            "en": "A selection of seasonal fresh fruits.",
+            "hy": "Սեզոնային թարմ մրգերի տեսականի։"
+          },
+          "price": 23.99,
+          "image": null,
+          "labels": [
+            "vegetarian"
+          ]
+        }
+      ]
+    }
+  ]
+}

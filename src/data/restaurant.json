@@ -1,0 +1,22 @@
+{
+  "name": "Bella Italia",
+  "subtitle": {
+    "en": "Authentic Italian Cuisine",
+    "hy": "Իտալական ավանդական խոհանոց"
+  },
+  "logo": "/logo.png",
+  "phone": "+374 XX XXX XXX",
+  "email": "info@example.com",
+  "address": {
+    "en": "Example Street 10, Yerevan",
+    "hy": "Օրինակի փողոց 10, Երևան"
+  },
+  "workingHours": {
+    "en": "Every day 10:00 - 23:00",
+    "hy": "Ամեն օր 10:00 - 23:00"
+  },
+  "socials": {
+    "instagram": "",
+    "facebook": ""
+  }
+}
