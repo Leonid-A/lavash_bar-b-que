@@ -1,10 +1,10 @@
 {
-  "name": "Bella Italia",
+  "name": "Lavash Bar-B-Que",
   "subtitle": {
-    "en": "Authentic Italian Cuisine",
-    "hy": "Իտալական ավանդական խոհանոց"
+    "en": "Armenian Cuisine",
+    "hy": "Հայկական խոհանոց"
   },
-  "logo": "/logo.png",
+  "logo": "/logo.webp",
   "phone": "+374 XX XXX XXX",
   "email": "info@example.com",
   "address": {
