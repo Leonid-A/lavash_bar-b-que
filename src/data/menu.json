@@ -529,13 +529,13 @@
           "labels": []
         },
         {
-          "id": "shrimp-lulah-kabob",
+          "id": "shrimp-lula-kebab",
           "name": {
-            "en": "Shrimp Lulah Kabob",
+            "en": "Shrimp lula Kebab",
             "hy": "Ծովախեցգետնի լուլա քաբաբ"
           },
           "description": {
-            "en": "Handcrafted shrimp lulah, charcoal-grilled with fresh herbs and garlic.",
+            "en": "Handcrafted shrimp lula, charcoal-grilled with fresh herbs and garlic.",
             "hy": "Ձեռագործ ծովախեցգետնի լուլա՝ խորոված ածխի կրակի վրա թարմ խոտաբույսերով և սխտորով։"
           },
           "price": 19.99,
@@ -654,9 +654,9 @@
           "labels": []
         },
         {
-          "id": "black-angus-lulah-kabob-chefs-signature",
+          "id": "black-angus-lula-kebab-chefs-signature",
           "name": {
-            "en": "Black Angus Lulah Kabob, Chef's Signature",
+            "en": "Black Angus Lula Kebab, Chef's Signature",
             "hy": "Black Angus լուլա քաբաբ, խոհարարի ֆիրմային"
           },
           "description": {
@@ -668,13 +668,13 @@
           "labels": []
         },
         {
-          "id": "lavash-signature-chicken-lulah-kabob",
+          "id": "lavash-signature-chicken-lula-kebab",
           "name": {
-            "en": "Lavash Signature Chicken Lulah Kabob",
+            "en": "Lavash Signature Chicken Lula Kebab",
             "hy": "Lavash ֆիրմային հավի լուլա քաբաբ"
           },
           "description": {
-            "en": "Handcrafted chicken lulah, delicately seasoned and charcoal-grilled.",
+            "en": "Handcrafted chicken lula, delicately seasoned and charcoal-grilled.",
             "hy": "Ձեռագործ հավի լուլա՝ նրբորեն համեմված և ածխի խորոված։"
           },
           "price": 17.99,
@@ -682,13 +682,13 @@
           "labels": []
         },
         {
-          "id": "lavash-signature-lamb-lulah-kabob",
+          "id": "lavash-signature-lamb-lula-kebab",
           "name": {
-            "en": "Lavash Signature Lamb Lulah Kabob",
+            "en": "Lavash Signature Lamb Lula Kebab",
             "hy": "Lavash ֆիրմային գառան լուլա քաբաբ"
           },
           "description": {
-            "en": "Tender lamb lulah infused with traditional Armenian herbs and spices.",
+            "en": "Tender lamb lula infused with traditional Armenian herbs and spices.",
             "hy": "Փափուկ գառան լուլա՝ հագեցած ավանդական հայկական խոտաբույսերով և համեմունքներով։"
           },
           "price": 19.99,
@@ -696,9 +696,9 @@
           "labels": []
         },
         {
-          "id": "lavash-signature-tiger-shrimp-lulah-kabob",
+          "id": "lavash-signature-tiger-shrimp-lula-kebab",
           "name": {
-            "en": "Lavash Signature Tiger Shrimp Lulah Kabob",
+            "en": "Lavash Signature Tiger Shrimp Lula Kebab",
             "hy": "Lavash ֆիրմային վագրաձև ծովախեցգետնի լուլա քաբաբ"
           },
           "description": {
@@ -821,13 +821,13 @@
           "labels": []
         },
         {
-          "id": "shrimp-lula-kabob-wrap",
+          "id": "shrimp-lula-kebab-wrap",
           "name": {
-            "en": "Shrimp Lula Kabob Wrap",
+            "en": "Shrimp Lula Kebab Wrap",
             "hy": "Ծովախեցգետնի լուլա քաբաբ փաթաթան"
           },
           "description": {
-            "en": "Charcoal-grilled shrimp lulah with fresh greens and house-made sauce.",
+            "en": "Charcoal-grilled shrimp lula with fresh greens and house-made sauce.",
             "hy": "Ածխի խորոված ծովախեցգետնի լուլա՝ թարմ կանաչիով և տնական սոուսով։"
           },
           "price": 19.99,
@@ -835,13 +835,13 @@
           "labels": []
         },
         {
-          "id": "chicken-lula-kabob-wrap",
+          "id": "chicken-lula-kebab-wrap",
           "name": {
-            "en": "Chicken Lula Kabob Wrap",
+            "en": "Chicken Lula Kebab Wrap",
             "hy": "Հավի լուլա քաբաբ փաթաթան"
           },
           "description": {
-            "en": "Charcoal-grilled chicken lulah with fresh greens and house-made sauce.",
+            "en": "Charcoal-grilled chicken lula with fresh greens and house-made sauce.",
             "hy": "Ածխի խորոված հավի լուլա՝ թարմ կանաչիով և տնական սոուսով։"
           },
           "price": 13.99,
@@ -849,13 +849,13 @@
           "labels": []
         },
         {
-          "id": "lamb-lula-kabob-wrap",
+          "id": "lamb-lula-kebab-wrap",
           "name": {
-            "en": "Lamb Lula Kabob Wrap",
+            "en": "Lamb Lula Kebab Wrap",
             "hy": "Գառան լուլա քաբաբ փաթաթան"
           },
           "description": {
-            "en": "Charcoal-grilled lamb lulah with fresh greens and house-made sauce.",
+            "en": "Charcoal-grilled lamb lula with fresh greens and house-made sauce.",
             "hy": "Ածխի խորոված գառան լուլա՝ թարմ կանաչիով և տնական սոուսով։"
           },
           "price": 15.99,
@@ -863,13 +863,13 @@
           "labels": []
         },
         {
-          "id": "black-angus-lula-kabob-wrap",
+          "id": "black-angus-lula-kebab-wrap",
           "name": {
-            "en": "Black Angus Lula Kabob Wrap",
+            "en": "Black Angus Lula Kebab Wrap",
             "hy": "Black Angus լուլա քաբաբ փաթաթան"
           },
           "description": {
-            "en": "Charcoal-grilled Black Angus lulah with fresh greens and house-made sauce.",
+            "en": "Charcoal-grilled Black Angus lula with fresh greens and house-made sauce.",
             "hy": "Ածխի խորոված Black Angus լուլա՝ թարմ կանաչիով և տնական սոուսով։"
           },
           "price": 14.99,
