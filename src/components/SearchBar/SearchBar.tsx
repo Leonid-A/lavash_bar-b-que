@@ -20,11 +20,11 @@ export default function SearchBar() {
   const { query, setQuery } = useSearch();
 
   return (
-    <div className="border-b border-stone-200 bg-white">
+    <div className="border-b border-menu-border bg-menu-bg">
       <div className="page-container py-6">
         <div className="relative mx-auto max-w-md">
           <Search
-            className="pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2 text-stone-400"
+            className="pointer-events-none absolute top-1/2 left-4 h-4 w-4 -translate-y-1/2 text-menu-gold/50"
             strokeWidth={1.5}
             aria-hidden="true"
           />
@@ -37,7 +37,7 @@ export default function SearchBar() {
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder={getLocalizedText(SEARCH_PLACEHOLDER, language)}
-            className="w-full rounded-full border border-stone-200 bg-stone-50 py-3 pr-4 pl-12 text-sm text-stone-900 shadow-sm transition-all duration-200 placeholder:text-stone-500 focus:border-stone-400 focus:bg-white focus:shadow-md focus:ring-2 focus:ring-stone-900/10 focus:outline-none"
+            className="w-full rounded-full border border-menu-border bg-menu-surface py-3 pr-4 pl-12 text-sm text-menu-gold shadow-sm transition-all duration-200 placeholder:text-menu-cream/40 focus:border-menu-gold/60 focus:bg-menu-surface focus:shadow-md focus:ring-2 focus:ring-menu-gold/20 focus:outline-none"
           />
         </div>
       </div>

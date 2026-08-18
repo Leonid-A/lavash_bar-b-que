@@ -18,18 +18,23 @@ function CategorySection({ category }: CategorySectionProps) {
     <section
       id={category.id}
       aria-labelledby={headingId}
-      className="scroll-mt-28 border-b border-stone-100 py-12 last:border-b-0 sm:py-14"
+      className="scroll-mt-28 border-b border-menu-border/60 py-12 last:border-b-0 sm:py-14"
     >
       <h2
         id={headingId}
-        className="font-display text-3xl font-semibold tracking-tight text-stone-900 sm:text-4xl"
+        className="font-display text-3xl font-semibold tracking-tight text-menu-gold uppercase sm:text-4xl"
       >
         {getLocalizedText(category.name, language)}
       </h2>
       <div
         aria-hidden="true"
-        className="mt-3 h-1 w-10 rounded-full bg-stone-900"
+        className="mt-3 h-1 w-10 rounded-full bg-menu-gold"
       />
+      {category.description ? (
+        <p className="mt-4 max-w-2xl text-sm text-menu-cream/70 sm:text-base">
+          {getLocalizedText(category.description, language)}
+        </p>
+      ) : null}
       <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {category.items.map((item) => (
           <MenuCard key={item.id} item={item} />

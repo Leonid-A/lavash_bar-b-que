@@ -30,9 +30,9 @@ function MenuCard({ item }: MenuCardProps) {
   const showImagePlaceholder = Boolean(item.image) && imageFailed;
 
   return (
-    <article className="animate-fade-in flex flex-col overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+    <article className="animate-fade-in flex flex-col overflow-hidden rounded-2xl border border-menu-border bg-menu-surface transition-all duration-300 hover:-translate-y-0.5 hover:border-menu-gold/50">
       {showImage && item.image ? (
-        <div className="relative aspect-[4/3] w-full bg-stone-100">
+        <div className="relative aspect-[4/3] w-full bg-menu-bg">
           <Image
             src={item.image}
             alt={name}
@@ -43,22 +43,24 @@ function MenuCard({ item }: MenuCardProps) {
           />
         </div>
       ) : showImagePlaceholder ? (
-        <div className="flex aspect-[4/3] w-full items-center justify-center bg-stone-100 text-stone-300">
+        <div className="flex aspect-[4/3] w-full items-center justify-center bg-menu-bg text-menu-gold/30">
           <ImageOff className="h-8 w-8" strokeWidth={1.5} aria-hidden="true" />
         </div>
       ) : null}
       <div className="flex flex-1 flex-col gap-3 p-6">
         <div className="flex items-baseline justify-between gap-4">
-          <h3 className="font-display text-lg font-semibold text-stone-900">
+          <h3 className="font-display text-lg font-semibold text-menu-gold">
             {name}
           </h3>
-          <span className="shrink-0 text-base font-semibold text-stone-900 tabular-nums">
+          <span className="shrink-0 text-base font-semibold text-menu-gold tabular-nums">
             ${item.price.toFixed(2)}
           </span>
         </div>
-        <p className="text-sm leading-relaxed text-stone-600">
-          {getLocalizedText(item.description, language)}
-        </p>
+        {item.description ? (
+          <p className="text-sm leading-relaxed text-menu-cream/70">
+            {getLocalizedText(item.description, language)}
+          </p>
+        ) : null}
         {item.labels && item.labels.length > 0 ? (
           <ul className="mt-auto flex flex-wrap gap-1.5 pt-2">
             {item.labels.map((label) => (
@@ -66,8 +68,8 @@ function MenuCard({ item }: MenuCardProps) {
                 key={label}
                 className={
                   label === "new"
-                    ? "rounded-full bg-stone-900 px-2.5 py-1 text-[11px] font-medium tracking-wide text-white uppercase"
-                    : "rounded-full border border-stone-200 bg-stone-50 px-2.5 py-1 text-[11px] font-medium tracking-wide text-stone-600 uppercase"
+                    ? "rounded-full bg-menu-gold px-2.5 py-1 text-[11px] font-medium tracking-wide text-menu-bg uppercase"
+                    : "rounded-full border border-menu-border bg-menu-bg px-2.5 py-1 text-[11px] font-medium tracking-wide text-menu-cream/80 uppercase"
                 }
               >
                 {getLocalizedText(LABEL_TEXT[label], language)}

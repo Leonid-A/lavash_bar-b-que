@@ -15,7 +15,7 @@ export type MenuItemLabel =
 export interface MenuItem {
   id: string;
   name: LocalizedText;
-  description: LocalizedText;
+  description?: LocalizedText;
   price: number;
   image: string | null;
   labels?: MenuItemLabel[];
@@ -24,6 +24,7 @@ export interface MenuItem {
 export interface MenuCategory {
   id: string;
   name: LocalizedText;
+  description?: LocalizedText;
   items: MenuItem[];
 }
 

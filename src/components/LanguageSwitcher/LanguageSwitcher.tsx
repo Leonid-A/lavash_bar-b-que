@@ -16,10 +16,10 @@ export default function LanguageSwitcher() {
     <div
       role="group"
       aria-label="Language"
-      className="flex items-center gap-1 rounded-full border border-stone-200 bg-white p-1 shadow-sm"
+      className="flex items-center gap-1 rounded-full border border-menu-border bg-menu-surface p-1 shadow-sm"
     >
       <Globe
-        className="ml-2 h-4 w-4 shrink-0 text-stone-400"
+        className="ml-2 h-4 w-4 shrink-0 text-menu-gold/50"
         strokeWidth={1.5}
         aria-hidden="true"
       />
@@ -31,8 +31,8 @@ export default function LanguageSwitcher() {
           onClick={() => setLanguage(option.code)}
           className={`focus-ring rounded-full px-3 py-1.5 text-sm font-medium transition-colors duration-200 ${
             language === option.code
-              ? "bg-stone-900 text-white"
-              : "text-stone-500 hover:text-stone-900"
+              ? "bg-menu-gold text-menu-bg"
+              : "text-menu-cream/70 hover:text-menu-gold"
           }`}
         >
           {option.label}

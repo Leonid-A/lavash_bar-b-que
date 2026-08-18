@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 import { CategoryNavigation } from "@/components/CategoryNavigation";
 import { Footer } from "@/components/Footer";
@@ -38,6 +38,10 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#1c1310",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -48,7 +52,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-stone-50 text-stone-900">
+      <body className="flex min-h-full flex-col bg-menu-bg text-menu-gold">
         <LanguageProvider>
           <SearchProvider>
             <Header />

@@ -1,22 +1,22 @@
 {
   "name": "Lavash Bar-B-Que",
   "subtitle": {
-    "en": "Armenian Cuisine",
-    "hy": "Հայկական խոհանոց"
+    "en": "Authentic Mediterranean-Armenian-Georgian Cuisine",
+    "hy": "Իսկական միջերկրածովյան-հայկական-վրացական խոհանոց"
   },
   "logo": "/logo.webp",
-  "phone": "+374 XX XXX XXX",
-  "email": "info@example.com",
+  "phone": "+1 (424) 404 4424",
+  "email": "lavashbarbeque@gmail.com",
   "address": {
-    "en": "Example Street 10, Yerevan",
-    "hy": "Օրինակի փողոց 10, Երևան"
+    "en": "8236 Foothill blvd, Los Angeles, California",
+    "hy": "8236 Ֆութհիլ Բլվդ, Լոս Անջելես, Կալիֆորնիա"
   },
   "workingHours": {
-    "en": "Every day 10:00 - 23:00",
-    "hy": "Ամեն օր 10:00 - 23:00"
+    "en": "Every day 11:00 - 22:00",
+    "hy": "Ամեն օր 11:00 - 22:00"
   },
   "socials": {
-    "instagram": "",
-    "facebook": ""
+    "instagram": "https://www.instagram.com/lavashbarbque",
+    "facebook": "https://www.facebook.com/p/Lavash-Bar-B-Que-61571292994597/"
   }
 }

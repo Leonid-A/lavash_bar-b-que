@@ -221,12 +221,39 @@ Lavash/
 - Initialized the local git repository (first commit), added `.idea/` to `.gitignore` (JetBrains IDE config, not tracked), and pushed to `git@github.com:Leonid-A/lavash_bar-b-que.git` via SSH.
 - In progress: deploying to Vercel (import connected, framework auto-detected as Next.js).
 
+### 8. Real menu import from photographed pages
+
+- Replaced `src/data/menu.json` with the restaurant's actual printed menu, transcribed from 11 photographed pages the owner provided in `Desktop/menu/`. Restructured to 11 categories matching the print menu's own sections: Appetizers, Salads, Soups, Charcoal BBQ Seafood, Charcoal BBQ Plates, Charcoal BBQ Wraps, Signature Sandwiches, Hot Dishes, Sides, Drinks, Desserts (~100 items).
+- Added optional `MenuCategory.description` (`src/types/menu.ts`) to carry category-level subtitles present on several print pages (Soups, Charcoal BBQ Plates, Charcoal BBQ Wraps); rendered under the heading in `CategorySection.tsx` when present, otherwise omitted. Fully optional, backward-compatible.
+- The photographed pages had English text only; all `hy` translations for this content were authored by the AI assistant, matching the style of the pre-existing bilingual entries.
+- Fixed a swapped description on the source (Beef Shawarma Plate ↔ Pork Shawarma Plate had each other's description) using the correctly-paired text from the source's Wraps page. Full details of transcription fixes are in `docs/CHANGELOG.md`.
+- `restaurant.json` was not touched (no restaurant contact info in the photographed pages).
+- Verified with `npm run build`, `npx tsc --noEmit`, `npm run lint`, and in-browser (both languages, category descriptions, corrected shawarma pairing).
+- Follow-up: the source "Drinks" page has no description line under any item (unlike every other category), so the descriptions previously carried over there from old sample data were removed. `MenuItem.description` (`src/types/menu.ts`) is now optional; `MenuCard.tsx` renders the description paragraph only when present, and `utils/search.ts` skips it in matching when absent.
+- Follow-up: cleared `labels` to `[]` on all 103 menu items — the auto-assigned dietary/allergen labels (vegetarian, contains-dairy, etc.) were placeholders and are pending manual review by the owner. Confirmed `Footer.tsx`'s phone/email were already clickable `tel:`/`mailto:` links; no code change needed there.
+
+### 9. Dark/gold theme matching the printed menu
+
+- Reskinned the app to match the physical printed menu's look: dark charcoal-brown background (`menu-bg`, `#1c1310`), gold headings/prices/accents (`menu-gold`, `#eec35a`), cream body text (`menu-cream`, `#ddc9a0`), plus `menu-surface`/`menu-border` for cards and dividers. Tokens defined in `src/app/globals.css` via Tailwind v4's `@theme` block; see `docs/03-ui-guidelines.md` for the palette reference.
+- Applied across every component that previously used the white/`stone-*` palette: `layout.tsx` (body + `viewport.themeColor`), `Header`, `Footer`, `CategoryNavigation`, `SearchBar`, `LanguageSwitcher`, `CategorySection` (headings now uppercase, matching the print style), `MenuCard` (hover elevation changed from drop-shadow to a gold border glow — shadows don't read on a dark background), and the search empty-state.
+- `docs/03-ui-guidelines.md`'s Colors section was rewritten to document the new palette as current source of truth (previously specified a white/neutral theme).
+- Intentionally not replicated: the printed menu's decorative gold circular line-art corner ornaments — out of scope for a color/typography pass, revisit if wanted later.
+- Verified with `npm run build`, `npx tsc --noEmit`, `npm run lint`, and in-browser at mobile (375px) and desktop widths, both languages — no horizontal overflow, no regressions.
+- Follow-up fix: `CategoryNavigation`'s `sm:justify-center` on the scrollable pill list made the first/last categories unreachable on wide viewports where the 11 categories overflow (centering pushes content past `scrollLeft: 0`, which browsers won't scroll past). Changed to `sm:justify-[safe_center]`, which centers only when content fits and otherwise falls back to a fully scrollable start alignment.
+- Follow-up: added `cursor-pointer` to the shared `.focus-ring` utility (covers every button/link built on it) plus the two footer `tel:`/`mailto:` links, since native `<button>` elements don't get a pointer cursor by default.
+
+### 10. Clickable Google Map in the footer
+
+- Added a small "Find Us" map to `Footer.tsx` under the address/contact list, using the keyless Google Maps embed (`maps.google.com/maps?q=...&output=embed`, no API key needed), queried from `restaurant.name` + `restaurant.address.en`.
+- The whole preview is one `<a target="_blank">` to the Google Maps URL scheme (`google.com/maps/search/?api=1&query=...`) — clicking anywhere opens Google Maps pinned to the address. The embedded iframe has `pointer-events-none` so the anchor captures the click; a small "Open in Google Maps" caption is overlaid for affordance.
+- Verified the embed endpoint is live (direct visit correctly errors with "must be used in an iframe"), the iframe's `load` event fires in-app, and a real map tile renders (confirmed via full-page screenshot — a light rectangle against the dark theme, since Google's default tiles aren't dark-themeable without the paid Maps JavaScript API).
+
 ## Explicitly NOT Implemented Yet
 
 - Real images for menu items (all `image: null` currently; `MenuCard` already supports `next/image` when a path is provided, including a broken-image fallback) and a real logo asset at `/logo.png`.
 - Any backend/CMS — `menu.json`/`restaurant.json` are static, hand-authored.
 - Persisting the selected language or search query (e.g. to `localStorage` or URL) — both reset on reload by design so far.
-- Debouncing search input — intentionally omitted; dataset is small (39 items) so instant per-keystroke filtering is cheap and matches the "instant" requirement.
+- Debouncing search input — intentionally omitted; dataset is small (~100 items) so instant per-keystroke filtering is cheap and matches the "instant" requirement.
 - Loading skeletons — no async loading state exists yet to justify them (see above).
 
 ## Upcoming Work

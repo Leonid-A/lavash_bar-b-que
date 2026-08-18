@@ -33,17 +33,17 @@ export default function Home() {
         <div className="animate-fade-in flex flex-col items-center">
           <span
             aria-hidden="true"
-            className="flex h-16 w-16 items-center justify-center rounded-full bg-stone-100 text-stone-300"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-menu-surface text-menu-gold/40"
           >
             <SearchX className="h-8 w-8" strokeWidth={1.5} />
           </span>
-          <p className="mt-6 max-w-md text-lg text-balance text-stone-600">
+          <p className="mt-6 max-w-md text-lg text-balance text-menu-cream/80">
             {getLocalizedText(EMPTY_STATE_MESSAGE, language)}
           </p>
           <button
             type="button"
             onClick={() => setQuery("")}
-            className="focus-ring mt-6 rounded-full border border-stone-200 px-5 py-2.5 text-sm font-medium text-stone-600 transition-colors duration-200 hover:bg-stone-100 hover:text-stone-900"
+            className="focus-ring mt-6 rounded-full border border-menu-border px-5 py-2.5 text-sm font-medium text-menu-cream/80 transition-colors duration-200 hover:bg-menu-surface hover:text-menu-gold"
           >
             {getLocalizedText(CLEAR_SEARCH_LABEL, language)}
           </button>

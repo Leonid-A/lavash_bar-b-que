@@ -36,7 +36,8 @@ function filterCategory(
 function itemMatchesQuery(item: MenuItem, normalizedQuery: string): boolean {
   return (
     localizedTextMatches(item.name, normalizedQuery) ||
-    localizedTextMatches(item.description, normalizedQuery)
+    (item.description !== undefined &&
+      localizedTextMatches(item.description, normalizedQuery))
   );
 }
 

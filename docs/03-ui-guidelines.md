@@ -84,18 +84,19 @@ Labels
 
 # Colors
 
-Use a neutral color palette.
+The palette matches the restaurant's printed menu: a dark charcoal-brown ground with gold/cream text.
 
-Prefer:
+Tokens (defined in `src/app/globals.css`, used as Tailwind classes):
 
-- White backgrounds
-- Dark text
-- Soft gray borders
-- One primary accent color
+- `menu-bg` (`#1c1310`) — page, header, footer, nav background
+- `menu-surface` (`#261c16`) — menu card background, slightly raised
+- `menu-border` (`#403125`) — borders and dividers
+- `menu-gold` (`#eec35a`) — headings, prices, active states, primary accent
+- `menu-cream` (`#ddc9a0`) — body/description text, usually at reduced opacity (e.g. `text-menu-cream/70`)
 
-Avoid excessive colors.
+Avoid excessive additional colors.
 
-Labels may use subtle semantic colors.
+Labels may use subtle semantic colors once re-assigned (see `docs/CHANGELOG.md`).
 
 ---
 

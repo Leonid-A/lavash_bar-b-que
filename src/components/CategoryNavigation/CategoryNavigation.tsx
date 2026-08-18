@@ -37,9 +37,9 @@ export default function CategoryNavigation() {
   return (
     <nav
       aria-label="Menu categories"
-      className="sticky top-0 z-30 border-b border-stone-200 bg-white/90 backdrop-blur"
+      className="sticky top-0 z-30 border-b border-menu-border bg-menu-bg/95 backdrop-blur"
     >
-      <ul className="page-container scrollbar-hide flex list-none gap-2 overflow-x-auto overscroll-x-contain py-3 sm:justify-center sm:gap-3">
+      <ul className="page-container scrollbar-hide flex list-none gap-2 overflow-x-auto overscroll-x-contain py-3 sm:justify-[safe_center] sm:gap-3">
         {menu.categories.map((category) => {
           const isActive = category.id === activeId;
 
@@ -52,8 +52,8 @@ export default function CategoryNavigation() {
                 onClick={() => handleCategoryClick(category.id)}
                 className={`focus-ring rounded-full px-5 py-2.5 text-sm font-medium whitespace-nowrap transition-all duration-200 ${
                   isActive
-                    ? "bg-stone-900 text-white shadow-sm"
-                    : "text-stone-600 hover:bg-stone-100 hover:text-stone-900"
+                    ? "bg-menu-gold text-menu-bg shadow-sm"
+                    : "text-menu-cream/70 hover:bg-menu-surface hover:text-menu-gold"
                 }`}
               >
                 {getLocalizedText(category.name, language)}
