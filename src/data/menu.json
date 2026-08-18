@@ -306,7 +306,7 @@
             "en": "Charcoal-grilled beef, seasonal vegetables, herbs, and house-made spicy dressing.",
             "hy": "Ածուխի վրա խորոված տավարի միս, սեզոնային բանջարեղեն, խոտաբույսեր և կծու տնական սոուս։"
           },
-          "price": 23.99,
+          "price": 13.99,
           "image": null,
           "labels": []
         },
@@ -1025,28 +1025,28 @@
           "labels": []
         },
         {
-          "id": "khinkali-5-pieces",
+          "id": "khinkali",
           "name": {
-            "en": "Khinkali - 5 Pieces",
-            "hy": "Խինկալի (5 հատ)"
+            "en": "Khinkali",
+            "hy": "Խինկալի"
           },
           "description": {
-            "en": "Handcrafted Georgian dumplings filled with seasoned beef and aromatic herbs. Boiled or fried.",
-            "hy": "Ձեռագործ վրացական խմորեղեն՝ լցոնված համեմված տավարի մսով և բուրավետ խոտաբույսերով։ Եփած կամ տապակած։"
+            "en": "Handcrafted Georgian dumplings filled with seasoned beef and aromatic herbs. Boiled or fried. Minimum order 5 pcs.",
+            "hy": "Ձեռագործ վրացական խմորեղեն՝ լցոնված համեմված տավարի մսով և բուրավետ խոտաբույսերով։ Եփած կամ տապակած։ Նվազագույն պատվերը 5 հատ։"
           },
           "price": 3.99,
           "image": null,
           "labels": []
         },
         {
-          "id": "cheese-and-tarragon-khinkali-5-pieces",
+          "id": "cheese-and-tarragon-khinkali",
           "name": {
-            "en": "Cheese & Tarragon Khinkali - 5 Pieces",
-            "hy": "Պանրով և թարխունով խինկալի (5 հատ)"
+            "en": "Cheese & Tarragon Khinkali",
+            "hy": "Պանրով և թարխունով խինկալի"
           },
           "description": {
-            "en": "Golden-fried dumplings filled with premium cheese and fresh tarragon.",
-            "hy": "Ոսկեգույն տապակած խմորեղեն՝ լցոնված ընտիր պանրով և թարմ թարխունով։"
+            "en": "Golden-fried dumplings filled with premium cheese and fresh tarragon. Minimum order 5 pcs.",
+            "hy": "Ոսկեգույն տապակած խմորեղեն՝ լցոնված ընտիր պանրով և թարմ թարխունով։ Նվազագույն պատվերը 5 հատ։"
           },
           "price": 3.99,
           "image": null,
